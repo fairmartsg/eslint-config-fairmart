@@ -19,7 +19,7 @@
     "url": "https://github.com/aviarc/eslint-config-aviarc/issues"
   },
   "homepage": "https://github.com/aviarc/eslint-config-aviarc#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "4.3.0",
     "eslint-plugin-react": "6.10.3",
     "babel-eslint": "7.2.2"
