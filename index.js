@@ -119,6 +119,8 @@ module.exports = {
                 "classes": "always"
             }
         ],
-        "prefer-const": 1
+        "prefer-const": 1,
+        "curly": "error",
+        "comma-dangle": ["error", "never"]
     }
 };
