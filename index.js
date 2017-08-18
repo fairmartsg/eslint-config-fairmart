@@ -5,6 +5,10 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/all"
+    ],
     "settings": {
         "react": {
             "createClass": "createClass",
@@ -13,9 +17,10 @@ module.exports = {
         }
     },
     "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
         "ecmaFeatures": {
-            "jsx": true,
-            "modules": true
+            "jsx": true
         }
     },
     "rules": {
