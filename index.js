@@ -39,6 +39,7 @@ module.exports = {
         "indent": "off",
         "sort-imports": "off",
         "no-case-declarations": "off",
+        "no-useless-escape": "off",
         "no-multiple-empty-lines": [
             "error",
             {
