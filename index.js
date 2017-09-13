@@ -127,6 +127,8 @@ module.exports = {
         ],
         "prefer-const": 1,
         "curly": "error",
-        "comma-dangle": ["error", "never"]
+        "comma-dangle": ["error", "never"],
+        "quotes": ["error", "single", {"allowTemplateLiterals": true}],
+        "eqeqeq": ["error", "always"]
     }
 };
