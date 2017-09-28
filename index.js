@@ -25,7 +25,7 @@ module.exports = {
         }
     },
     "rules": {
-        "filenames/match-regex": [2, "^[a-z][a-zA-Z-_]*$", true],
+        "filenames/match-regex": [2, "^[a-z][a-zA-Z-_.]*$", true],
         "max-lines": [
             "error",
             {
