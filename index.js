@@ -4,12 +4,11 @@ module.exports = {
     "parser": "babel-eslint",
     "plugins": [
         "react",
-        "json"
+        "filenames"
     ],
     "extends": [
         "eslint:recommended",
-        "plugin:react/all",
-        "filenames"
+        "plugin:react/all"
     ],
     "settings": {
         "react": {
