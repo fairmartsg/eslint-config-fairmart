@@ -129,6 +129,7 @@ module.exports = {
         "curly": "error",
         "comma-dangle": ["error", "never"],
         "quotes": ["error", "single", {"allowTemplateLiterals": true}],
-        "eqeqeq": ["error", "always"]
+        "eqeqeq": ["error", "always"],
+        "no-param-reassign": "error"
     }
 };
