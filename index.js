@@ -3,11 +3,13 @@
 module.exports = {
     "parser": "babel-eslint",
     "plugins": [
-        "react"
+        "react",
+        "json"
     ],
     "extends": [
         "eslint:recommended",
-        "plugin:react/all"
+        "plugin:react/all",
+        "filenames"
     ],
     "settings": {
         "react": {
@@ -24,6 +26,7 @@ module.exports = {
         }
     },
     "rules": {
+        "filenames/match-regex": [2, "^[a-z][a-zA-Z-_]*$", true],
         "max-lines": [
             "error",
             {
