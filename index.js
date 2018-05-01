@@ -73,6 +73,13 @@ module.exports = {
             "error",
             "never"
         ],
+        "react/forbid-foreign-prop-types": "off",
+        "react/no-multi-comp": "off",
+        "react/jsx-max-depth": [2, { "max": 5}],
+        "react/jsx-sort-default-props": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react/no-access-state-in-setstate": "off",
+        "react/button-has-type": "off",
         "react/destructuring-assignment": "off",
         "react/prefer-stateless-function": "off",
         "react/jsx-wrap-multilines": "off",
