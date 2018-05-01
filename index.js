@@ -73,7 +73,10 @@ module.exports = {
             "error",
             "never"
         ],
+        "react/destructuring-assignment": "off",
         "react/prefer-stateless-function": "off",
+        "react/jsx-wrap-multilines": "off",
+        "react/jsx-first-prop-new-line": "off",
         "react/jsx-tag-spacing": "off",
         "react/jsx-sort-props": "off",
         "react/sort-prop-types": "off",
