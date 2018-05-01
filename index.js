@@ -77,7 +77,9 @@ module.exports = {
         "react/prefer-stateless-function": "off",
         "react/jsx-wrap-multilines": "off",
         "react/jsx-first-prop-new-line": "off",
-        "react/jsx-tag-spacing": "off",
+        "react/jsx-tag-spacing": ["error", {
+            "beforeSelfClosing": "never"
+        }],
         "react/jsx-sort-props": "off",
         "react/sort-prop-types": "off",
         "react/forbid-component-props": "off",
@@ -91,10 +93,6 @@ module.exports = {
             {
                 "allowArrowFunctions": true
             }
-        ],
-        "react/jsx-space-before-closing": [
-            "error",
-            "never"
         ],
         "react/jsx-closing-bracket-location": [
             1,
