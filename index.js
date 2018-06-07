@@ -75,7 +75,7 @@ module.exports = {
         ],
         "react/forbid-foreign-prop-types": "off",
         "react/no-multi-comp": "off",
-        "react/jsx-max-depth": [2, { "max": 5}],
+        "react/jsx-max-depth": [2, {"max": 5}],
         "react/jsx-sort-default-props": "off",
         "react/jsx-one-expression-per-line": "off",
         "react/no-access-state-in-setstate": "off",
@@ -140,6 +140,11 @@ module.exports = {
         "comma-dangle": ["error", "never"],
         "quotes": ["error", "single", {"allowTemplateLiterals": true}],
         "eqeqeq": ["error", "always"],
-        "no-param-reassign": "error"
+        "no-param-reassign": "error",
+        "max-params": ["warn", 3],
+        "complexity": ["warn", 2],
+        "no-inner-declarations": "error",
+        "no-loop-func": "error",
+        "no-empty-function": "warn"
     }
 };
