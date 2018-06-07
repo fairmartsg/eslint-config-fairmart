@@ -143,8 +143,8 @@ module.exports = {
         "no-param-reassign": "error",
         "max-params": ["warn", 3],
         "complexity": ["warn", 2],
-        "no-inner-declarations": "error",
-        "no-loop-func": "error",
+        "no-inner-declarations": "warn",
+        "no-loop-func": "warn",
         "no-empty-function": "warn"
     }
 };
