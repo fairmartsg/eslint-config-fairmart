@@ -35,7 +35,7 @@ module.exports = {
         "max-len": [
             "error",
             {
-                "code": 120
+                "code": 80
             }
         ],
         "indent": "off",
@@ -141,6 +141,7 @@ module.exports = {
         "quotes": ["error", "single", {"allowTemplateLiterals": true}],
         "eqeqeq": ["error", "always"],
         "no-param-reassign": "error",
+        "max-nested-callbacks": ["error", 2],
         "max-params": ["warn", 3],
         "complexity": ["warn", 2],
         "no-inner-declarations": "warn",
