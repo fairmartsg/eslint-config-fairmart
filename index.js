@@ -143,7 +143,7 @@ module.exports = {
         "no-param-reassign": "error",
         "max-nested-callbacks": ["error", 2],
         "max-params": ["warn", 3],
-        "complexity": ["warn", 2],
+        "complexity": ["warn", 5],
         "no-inner-declarations": "warn",
         "no-loop-func": "warn",
         "no-empty-function": "warn"
