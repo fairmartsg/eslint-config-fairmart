@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-aviarc",
+  "name": "eslintconfig",
   "version": "2.0.0",
   "description": "ESLint shareable config for the Aviarc JavaScript style guide",
   "main": "index.js",
@@ -8,17 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aviarc/eslint-config-aviarc.git"
+    "url": "git+https://github.com/fairmartsg/eslintconfig.git"
   },
   "keywords": [
     "eslint"
   ],
-  "author": "Daniil Moskovtsov danmos@aviarc.com",
+  "author": "Daniil Moskovtsov",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aviarc/eslint-config-aviarc/issues"
-  },
-  "homepage": "https://github.com/aviarc/eslint-config-aviarc#readme",
   "peerDependencies": {
     "eslint": "4.19.1",
     "eslint-plugin-filenames": "1.2.0",
