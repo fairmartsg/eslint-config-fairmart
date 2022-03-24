@@ -1,2 +1,2 @@
-# eslint-config-aviarc
-ESLint shareable config for the Aviarc JavaScript style guide
+# eslint-config-fairmart
+ESLint shareable config for the Fairmart JavaScript style guide
