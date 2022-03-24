@@ -73,8 +73,6 @@ module.exports = {
             "error",
             "never"
         ],
-        "react/forbid-foreign-prop-types": "off",
-        "react/no-multi-comp": "off",
         "react/jsx-max-depth": [2, {"max": 5}],
         "react/jsx-sort-default-props": "off",
         "react/jsx-one-expression-per-line": "off",
@@ -144,6 +142,10 @@ module.exports = {
         "max-nested-callbacks": ["error", 2],
         "no-inner-declarations": "warn",
         "no-loop-func": "warn",
-        "no-empty-function": "warn"
+        "no-empty-function": "warn",
+        "react/require-optimization": "off",
+        "react/forbid-foreign-prop-types": "off",
+        "react/no-multi-comp": "off",
+        "no-console": "off"
     }
-};
+}
