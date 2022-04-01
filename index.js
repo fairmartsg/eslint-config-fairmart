@@ -26,6 +26,7 @@ module.exports = {
     },
     "rules": {
         "filenames/match-regex": [2, "^[a-z][a-zA-Z-_.]*$", true],
+        "object-curly-spacing": ["error","never"],
         "max-lines": [
             "error",
             {
