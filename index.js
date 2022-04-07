@@ -14,7 +14,7 @@ module.exports = {
         "react": {
             "createClass": "createClass",
             "pragma": "React",
-            "version": "15.0"
+            "version": "16.0"
         }
     },
     "parserOptions": {
@@ -25,8 +25,9 @@ module.exports = {
         }
     },
     "rules": {
+        "max-lines-per-function": ["error", {"max": 10, "skipBlankLines": true}],
         "filenames/match-regex": [2, "^[a-z][a-zA-Z-_.]*$", true],
-        "object-curly-spacing": ["error","never"],
+        "object-curly-spacing": ["error", "never"],
         "max-lines": [
             "error",
             {
