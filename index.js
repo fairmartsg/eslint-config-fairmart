@@ -25,7 +25,10 @@ module.exports = {
         }
     },
     "rules": {
-        "max-lines-per-function": ["error", {"max": 10, "skipBlankLines": true}],
+        "max-lines-per-function": ["warn", {"max": 10, "skipBlankLines": true}],
+        "complexity": ["warn", 8],
+        "max-depth": ["error", 3],
+        "max-statements-per-line": ["error", {"max": 1}],
         "filenames/match-regex": [2, "^[a-z][a-zA-Z-_.]*$", true],
         "object-curly-spacing": ["error", "never"],
         "max-lines": [
