@@ -26,6 +26,7 @@ module.exports = {
         }
     },
     "rules": {
+        "arrow-parens": ["error", "always"],
         "max-params": ["warn", 3],
         "prefer-const": ["error", {
             "destructuring": "any",
@@ -137,9 +138,11 @@ module.exports = {
             "error",
             {
                 "order": [
+                    "state",
                     "static-methods",
                     "lifecycle",
                     "render",
+                    "/^render.+$/",
                     "everything-else"
                 ]
             }
