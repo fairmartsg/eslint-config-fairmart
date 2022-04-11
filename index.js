@@ -8,7 +8,8 @@ module.exports = {
     ],
     "extends": [
         "eslint:recommended",
-        "plugin:react/all"
+        "plugin:react/all",
+        "folders"
     ],
     "settings": {
         "react": {
@@ -25,6 +26,10 @@ module.exports = {
         }
     },
     "rules": {
+        "folders/match-regex": [
+            2,
+            "^[a-z_]+$", '/src/'
+        ],
         "max-lines-per-function": ["warn", {"max": 10, "skipBlankLines": true}],
         "complexity": ["warn", 8],
         "max-depth": ["error", 3],
