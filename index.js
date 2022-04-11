@@ -4,12 +4,12 @@ module.exports = {
     "parser": "babel-eslint",
     "plugins": [
         "react",
-        "filenames"
+        "filenames",
+        "folders"
     ],
     "extends": [
         "eslint:recommended",
-        "plugin:react/all",
-        "folders"
+        "plugin:react/all"
     ],
     "settings": {
         "react": {
@@ -26,6 +26,18 @@ module.exports = {
         }
     },
     "rules": {
+        "max-params": ["warn", 3],
+        "prefer-const": ["error", {
+            "destructuring": "any",
+            "ignoreReadBeforeAssign": false
+        }],
+        "prefer-arrow-callback": "error",
+        "var": "never",
+        "no-duplicate-imports": "error",
+        "arrow-body-style": ["error", "as-needed"],
+        "func-name-matching": "error",
+        "func-style": ["error", "declaration", {"allowArrowFunctions": true}],
+        "no-var": "error",
         "folders/match-regex": [
             2,
             "^[a-z_]+$", '/src/'
@@ -143,7 +155,6 @@ module.exports = {
                 "classes": "always"
             }
         ],
-        "prefer-const": 1,
         "curly": "error",
         "comma-dangle": ["error", "never"],
         "quotes": ["error", "single", {"allowTemplateLiterals": true}],
