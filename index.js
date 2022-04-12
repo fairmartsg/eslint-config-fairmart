@@ -33,7 +33,6 @@ module.exports = {
             "ignoreReadBeforeAssign": false
         }],
         "prefer-arrow-callback": "error",
-        "var": "never",
         "no-duplicate-imports": "error",
         "arrow-body-style": ["error", "as-needed"],
         "func-name-matching": "error",
