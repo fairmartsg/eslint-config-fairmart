@@ -94,7 +94,7 @@ module.exports = {
         "newline-before-return": "off",
         "semi": [
             "error",
-            "never  "
+            "never"
         ],
         "react/jsx-max-depth": [2, {"max": 5}],
         "react/jsx-sort-default-props": "off",
