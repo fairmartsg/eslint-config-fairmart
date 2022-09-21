@@ -5,7 +5,8 @@ module.exports = {
     'plugins': [
         'react',
         'filenames',
-        'folders'
+        'folders',
+        'detect-bad-words'
     ],
     'extends': [
         'eslint:recommended',
@@ -16,7 +17,8 @@ module.exports = {
             'createClass': 'createClass',
             'pragma': 'React',
             'version': '16.0'
-        }
+        },
+        'customBadWords': ['wtf', 'fck', 'sht', 'ele']
     },
     'parserOptions': {
         'ecmaVersion': 6,
@@ -171,6 +173,12 @@ module.exports = {
         'react/forbid-foreign-prop-types': 'off',
         'react/no-multi-comp': 'off',
         'no-console': 'off',
-        'id-length': [2, {'min': 2, 'exceptions': ['$'], 'properties': 'never'}]
+        'id-length': [2, {
+            'min': 3,
+            'exceptions': ['$', 'id', 'lg', 'md', 'sm', 'xl', 'xs',
+                'gt', 'to', 'os', 'in', 'qs', 's3', 'S', 'r', 'g', 'b', 'fs']
+        }],
+        'detect-bad-words/in-code': 'error',
+        'detect-bad-words/in-comment': 'error'
     }
 }
