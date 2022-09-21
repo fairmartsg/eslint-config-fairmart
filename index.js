@@ -177,7 +177,8 @@ module.exports = {
         'id-length': [2, {
             'min': 3,
             'exceptions': ['$', 'id', 'lg', 'md', 'sm', 'xl', 'xs',
-                'gt', 'to', 'os', 'in', 'qs', 's3', 'S', 'r', 'g', 'b', 'fs']
+                'gt', 'to', 'os', 'in', 'qs', 's3', 'S', 'r', 'g', 'b', 'fs',
+            'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
         }],
         'detect-bad-words/in-code': 'warn',
         'detect-bad-words/in-comment': 'warn',
