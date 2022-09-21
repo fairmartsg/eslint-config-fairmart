@@ -19,7 +19,7 @@ module.exports = {
             'pragma': 'React',
             'version': '16.0'
         },
-        'customBadWords': ['ele', 'num', 'grouping', 'object', 'err', 'e', 'data', 'some']
+        'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'data', 'some']
     },
     'parserOptions': {
         'ecmaVersion': 6,
@@ -179,8 +179,8 @@ module.exports = {
             'exceptions': ['$', 'id', 'lg', 'md', 'sm', 'xl', 'xs',
                 'gt', 'to', 'os', 'in', 'qs', 's3', 'S', 'r', 'g', 'b', 'fs']
         }],
-        'detect-bad-words/in-code': 'error',
-        'detect-bad-words/in-comment': 'error',
+        'detect-bad-words/in-code': 'warn',
+        'detect-bad-words/in-comment': 'warn',
         'no-mocha-arrows': ['off'],
         'no-async-describe': ['off']
     }
