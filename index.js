@@ -6,7 +6,8 @@ module.exports = {
         'react',
         'filenames',
         'folders',
-        'detect-bad-words'
+        'detect-bad-words',
+        'mocha'
     ],
     'extends': [
         'eslint:recommended',
@@ -18,7 +19,7 @@ module.exports = {
             'pragma': 'React',
             'version': '16.0'
         },
-        'customBadWords': ['wtf', 'fck', 'sht', 'ele']
+        'customBadWords': ['ele', 'num', 'grouping', 'object', 'err', 'e', 'data', 'some']
     },
     'parserOptions': {
         'ecmaVersion': 6,
@@ -179,6 +180,8 @@ module.exports = {
                 'gt', 'to', 'os', 'in', 'qs', 's3', 'S', 'r', 'g', 'b', 'fs']
         }],
         'detect-bad-words/in-code': 'error',
-        'detect-bad-words/in-comment': 'error'
+        'detect-bad-words/in-comment': 'error',
+        'no-mocha-arrows': ['off'],
+        'no-async-describe': ['off']
     }
 }
