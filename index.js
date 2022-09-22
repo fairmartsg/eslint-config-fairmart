@@ -4,14 +4,16 @@ module.exports = {
     'parser': 'babel-eslint',
     'plugins': [
         'react',
+        "sonarjs",
+        "no-else",
         'filenames',
         'folders',
-        'detect-bad-words',
-        'mocha'
+        'detect-bad-words'
     ],
     'extends': [
         'eslint:recommended',
-        'plugin:react/all'
+        'plugin:react/all',
+        "plugin:sonarjs/recommended"
     ],
     'settings': {
         'react': {
@@ -178,11 +180,13 @@ module.exports = {
             'min': 3,
             'exceptions': ['$', 'id', 'lg', 'md', 'sm', 'xl', 'xs',
                 'gt', 'to', 'os', 'in', 'qs', 's3', 'S', 'r', 'g', 'b', 'fs',
-            'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+                'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
         }],
         'detect-bad-words/in-code': 'warn',
         'detect-bad-words/in-comment': 'warn',
-        'no-mocha-arrows': ['off'],
-        'no-async-describe': ['off']
+        'no-async-describe': 'off',
+        'sonarjs/no-small-switch': 'off',
+        'sonarjs/no-duplicate-string': 'off',
+        'no-else/no-else': ['warn', 2]
     }
 }
