@@ -21,7 +21,7 @@ module.exports = {
             'pragma': 'React',
             'version': '16.0'
         },
-        'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'data', 'some']
+        'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'data', 'some', 'buff']
     },
     'parserOptions': {
         'ecmaVersion': 6,
