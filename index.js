@@ -1,4 +1,5 @@
 'use strict'
+const snakeCase = require('./snakeCase.js')
 
 module.exports = {
     'parser': 'babel-eslint',
@@ -188,5 +189,13 @@ module.exports = {
         'sonarjs/no-small-switch': 'off',
         'sonarjs/no-duplicate-string': 'off',
         'no-else/no-else': ['warn', 2]
-    }
+    },
+    "camelcase": [
+        "error",
+        {
+            "properties": "never",
+            "allow": snakeCase
+        }
+    ]
+
 }
