@@ -196,7 +196,7 @@ module.exports = {
                 'allow': snakeCase
             }
         ],
-        'prefer-arrow/prefer-arrow-functions': ['warn',
+        'prefer-arrow/prefer-arrow-functions': ['true',
             {
                 'disallowPrototype': true,
                 'singleReturnOnly': false,
