@@ -383,12 +383,17 @@ eslint-plugin-mocha@10.1.0:
     eslint-utils "^3.0.0"
     rambda "^7.1.0"
 
-eslint-plugin-no-else@^0.2.2:
+eslint-plugin-no-else@0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-no-else/-/eslint-plugin-no-else-0.2.2.tgz#73044acf43bb2752bea2e11ee1c43567232cbf17"
   integrity sha512-Lqagnu5gi6VFGg9x9jJ8JMk551WzT57pfCL8F/CXp7bXiUj3TfuxPicp985JzSo3ZMca6Bx+a+ZowdhkkhAaTQ==
   dependencies:
     requireindex "~1.1.0"
+
+eslint-plugin-prefer-arrow@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prefer-arrow/-/eslint-plugin-prefer-arrow-1.2.3.tgz#e7fbb3fa4cd84ff1015b9c51ad86550e55041041"
+  integrity sha512-J9I5PKCOJretVuiZRGvPQxCbllxGAV/viI20JO3LYblAodofBxyMnZAJ+WGeClHgANnSJberTNoFWWjrWKBuXQ==
 
 eslint-plugin-react@7.7.0:
   version "7.7.0"
@@ -400,7 +405,7 @@ eslint-plugin-react@7.7.0:
     jsx-ast-utils "^2.0.1"
     prop-types "^15.6.0"
 
-eslint-plugin-sonarjs@^0.15.0:
+eslint-plugin-sonarjs@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.15.0.tgz#f9c904f143f4e2336f2923be08399b32b5bd2781"
   integrity sha512-LuxHdAe6VqSbi1phsUvNjbmXLuvlobmryQJJNyQYbdubCfz6K8tmgoqNiJPnz0pP2AbYDbtuPm0ajOMgMrC+dQ==

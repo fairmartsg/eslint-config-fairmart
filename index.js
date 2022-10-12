@@ -9,7 +9,8 @@ module.exports = {
         'no-else',
         'filenames',
         'folders',
-        'detect-bad-words'
+        'detect-bad-words',
+        'prefer-arrow'
     ],
     'extends': [
         'eslint:recommended',
@@ -189,12 +190,19 @@ module.exports = {
         'sonarjs/no-small-switch': 'off',
         'sonarjs/no-duplicate-string': 'off',
         'no-else/no-else': ['warn', 2],
-        'camelcase': [
-            'error',
+        'camelcase': ['error',
             {
                 'properties': 'never',
                 'allow': snakeCase
             }
+        ],
+        'prefer-arrow/prefer-arrow-functions': ['warn',
+            {
+                'disallowPrototype': true,
+                'singleReturnOnly': false,
+                'classPropertiesAllowed': false
+            }
         ]
+
     }
 }
