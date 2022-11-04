@@ -35,6 +35,7 @@ module.exports = {
     },
     'rules': {
         ...react,
+        // 'function-call-argument-newline': ["error", "never"],//next version
         'dot-notation': 'error',
         'max-params': ['warn', 3],
         'prefer-const': ['error', {
@@ -42,6 +43,7 @@ module.exports = {
             'ignoreReadBeforeAssign': false
         }],
         'prefer-arrow-callback': 'error',
+        'no-prototype-builtins': 'off',
         'no-duplicate-imports': 'error',
         'arrow-body-style': ['error', 'as-needed'],
         "function-paren-newline": ["warn", "never"],

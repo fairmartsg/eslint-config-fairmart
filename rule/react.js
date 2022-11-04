@@ -10,7 +10,14 @@ module.exports = {
     'react/jsx-tag-spacing': ['error', {
         'beforeSelfClosing': 'never'
     }],
-    'react/jsx-first-prop-new-line': ['error', 'never'],
+    'react/jsx-first-prop-new-line': 'off',
+    'react/jsx-fragments': 'off',
+    'react/jsx-newline': 'off',
+    'react/no-deprecated': 'off',
+    'react/state-in-constructor': 'off',
+    'react/function-component-definition': 'off',
+    'react/jsx-no-leaked-render': 'off',
+    'react/jsx-props-no-spreading': 'off',
     'react/jsx-key': 'error',
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-closing-tag-location': ['error', 'never'],
