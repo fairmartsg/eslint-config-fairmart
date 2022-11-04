@@ -10,12 +10,6 @@ module.exports = {
     'react/jsx-tag-spacing': ['error', {
         'beforeSelfClosing': 'never'
     }],
-    'react/jsx-no-undef': [
-        'error',
-        {
-            'allowGlobals': 'never'
-        }
-    ],
     'react/jsx-first-prop-new-line': ['error', 'never'],
     'react/jsx-key': ['error', 'never'],
     'react/jsx-no-duplicate-props': ['error', 'never'],
