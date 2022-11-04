@@ -11,8 +11,8 @@ module.exports = {
         'beforeSelfClosing': 'never'
     }],
     'react/jsx-first-prop-new-line': ['error', 'never'],
-    'react/jsx-key': ['error', 'never'],
-    'react/jsx-no-duplicate-props': ['error', 'never'],
+    'react/jsx-key': 'error',
+    'react/jsx-no-duplicate-props': 'error',
     'react/jsx-closing-tag-location': ['error', 'never'],
     'react/jsx-sort-props': 'off',
     'react/sort-prop-types': 'off',

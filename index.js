@@ -43,7 +43,7 @@ module.exports = {
         }],
         'prefer-arrow-callback': 'error',
         'no-duplicate-imports': 'error',
-        'arrow-body-style': ['error', 'as-needed', { "requireReturnForObjectLiteral": true }],
+        'arrow-body-style': ['error', 'as-needed'],
         "function-paren-newline": ["warn", "never"],
         "array-bracket-spacing": ["warn", "never"],
         "no-unexpected-multiline": "error",
