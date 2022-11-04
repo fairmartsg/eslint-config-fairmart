@@ -35,7 +35,6 @@ module.exports = {
     },
     'rules': {
         ...react,
-        'arrow-parens': ['error', 'always'],
         'dot-notation': 'error',
         'max-params': ['warn', 3],
         'prefer-const': ['error', {
@@ -44,7 +43,13 @@ module.exports = {
         }],
         'prefer-arrow-callback': 'error',
         'no-duplicate-imports': 'error',
-        'arrow-body-style': ['error', 'as-needed'],
+        'arrow-body-style': ['error', 'as-needed', { "requireReturnForObjectLiteral": true }],
+        "function-paren-newline": ["warn", "never"],
+        "array-bracket-spacing": ["warn", "never"],
+        "no-unexpected-multiline": "error",
+        "func-call-spacing": ["error", "never"],
+        "no-spaced-func": "error",
+        "arrow-parens": ["error", "always", { "requireForBlockBody": true }],
         'func-name-matching': 'error',
         'func-style': ['error', 'declaration', {'allowArrowFunctions': true}],
         'no-var': 'error',
