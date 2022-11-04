@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fairmart",
-  "version": "2.3.7",
+  "version": "2.4.0",
   "description": "ESLint shareable config for the Fairmart JavaScript style guide",
   "main": "index.js",
   "scripts": {
@@ -16,10 +16,10 @@
   "author": "Daniil Moskovtsov",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "5.16.0",
+    "eslint": "6.2.0",
     "eslint-plugin-filenames": "1.2.0",
     "eslint-plugin-folders": "1.0.3",
-    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-react": "7.31.10",
     "eslint-plugin-detect-bad-words": "1.0.7",
     "eslint-plugin-mocha": "10.1.0",
     "eslint-plugin-no-else": "0.2.2",
@@ -27,11 +27,11 @@
     "eslint-plugin-prefer-arrow": "1.2.3"
   },
   "dependencies": {
-    "babel-eslint": "7.2.2",
-    "eslint": "5.16.0",
+    "babel-eslint": "7.2.3",
+    "eslint": "6.2.2",
     "eslint-plugin-filenames": "1.2.0",
     "eslint-plugin-folders": "1.0.3",
-    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-react": "7.31.10",
     "eslint-plugin-detect-bad-words": "1.0.7",
     "eslint-plugin-mocha": "10.1.0",
     "eslint-plugin-no-else": "0.2.2",
