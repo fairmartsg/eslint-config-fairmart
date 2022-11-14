@@ -37,7 +37,7 @@ module.exports = {
         ...react,
         // 'function-call-argument-newline': ["error", "never"],//next version
         'dot-notation': 'error',
-        'max-params': ['warn', 3],
+        'max-params': ['error', 3],
         'prefer-const': ['error', {
             'destructuring': 'any',
             'ignoreReadBeforeAssign': false
@@ -46,8 +46,8 @@ module.exports = {
         'no-prototype-builtins': 'off',
         'no-duplicate-imports': 'error',
         'arrow-body-style': ['error', 'as-needed'],
-        "function-paren-newline": ["warn", "never"],
-        "array-bracket-spacing": ["warn", "never"],
+        "function-paren-newline": ["error", "never"],
+        "array-bracket-spacing": ["error", "never"],
         "no-unexpected-multiline": "error",
         "func-call-spacing": ["error", "never"],
         "no-spaced-func": "error",
@@ -59,8 +59,8 @@ module.exports = {
             2,
             '^[a-z_]+$', '/src/'
         ],
-        'max-lines-per-function': ['warn', {'max': 10, 'skipBlankLines': true}],
-        'complexity': ['warn', 8],
+        'max-lines-per-function': ['error', {'max': 10, 'skipBlankLines': true}],
+        'complexity': ['error', 8],
         'max-depth': ['error', 3],
         'max-statements-per-line': ['error', {'max': 1}],
         'filenames/match-regex': [2, '^[a-z][a-zA-Z-_.]*$', true],
@@ -129,9 +129,9 @@ module.exports = {
         'eqeqeq': ['error', 'always'],
         'no-param-reassign': 'error',
         'max-nested-callbacks': ['error', 2],
-        'no-inner-declarations': 'warn',
-        'no-loop-func': 'warn',
-        'no-empty-function': 'warn',
+        'no-inner-declarations': 'error',
+        'no-loop-func': 'error',
+        'no-empty-function': 'error',
         'no-console': 'off',
         'id-length': [2, {
             'min': 3,
@@ -144,7 +144,7 @@ module.exports = {
         'no-async-describe': 'off',
         'sonarjs/no-small-switch': 'off',
         'sonarjs/no-duplicate-string': 'off',
-        'no-else/no-else': ['warn', 2],
+        'no-else/no-else': ['error', 2],
         'camelcase': ['error',
             {
                 'properties': 'never',
