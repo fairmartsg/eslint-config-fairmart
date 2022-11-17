@@ -65,6 +65,7 @@ module.exports = {
         'max-statements-per-line': ['error', {'max': 1}],
         'filenames/match-regex': [2, '^[a-z][a-zA-Z-_.]*$', true],
         'object-curly-spacing': ['error', 'never'],
+        'one-var': ['error', 'never'],
         'max-lines': [
             'error',
             {
@@ -158,6 +159,5 @@ module.exports = {
                 'classPropertiesAllowed': false
             }
         ]
-
     }
 }
