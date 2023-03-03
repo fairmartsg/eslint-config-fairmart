@@ -3,7 +3,7 @@ const snakeCase = require('./rule/snakeCase')
 const react = require('./rule/react')
 
 module.exports = {
-    'parser': 'babel-eslint',
+    'parser': '@typescript-eslint/parser',
     'plugins': [
         'react',
         'sonarjs',
@@ -159,11 +159,5 @@ module.exports = {
                 'classPropertiesAllowed': false
             }
         ]
-    },
-    'overrides': [{
-        // for files matching this pattern
-        'files': ['*.ts'],
-        // following config will override "babel" config
-        'parser': '@typescript-eslint/parser',
-    }]
+    }
 }
