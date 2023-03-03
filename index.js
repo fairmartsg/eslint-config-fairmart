@@ -159,5 +159,11 @@ module.exports = {
                 'classPropertiesAllowed': false
             }
         ]
-    }
+    },
+    'overrides': [{
+        // for files matching this pattern
+        'files': ['*.ts'],
+        // following config will override "babel" config
+        'parser': '@typescript-eslint/parser',
+    }]
 }
