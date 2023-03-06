@@ -46,12 +46,12 @@ module.exports = {
         'no-prototype-builtins': 'off',
         'no-duplicate-imports': 'error',
         'arrow-body-style': ['error', 'as-needed'],
-        "function-paren-newline": ["error", "never"],
-        "array-bracket-spacing": ["error", "never"],
-        "no-unexpected-multiline": "error",
-        "func-call-spacing": ["error", "never"],
-        "no-spaced-func": "error",
-        "arrow-parens": ["error", "always", { "requireForBlockBody": true }],
+        'function-paren-newline': ['error', 'never'],
+        'array-bracket-spacing': ['error', 'never'],
+        'no-unexpected-multiline': 'error',
+        'func-call-spacing': ['error', 'never'],
+        'no-spaced-func': 'error',
+        'arrow-parens': ['error', 'always', {'requireForBlockBody': true}],
         'func-name-matching': 'error',
         'func-style': ['error', 'declaration', {'allowArrowFunctions': true}],
         'no-var': 'error',
@@ -159,5 +159,9 @@ module.exports = {
                 'classPropertiesAllowed': false
             }
         ]
-    }
+    },
+    'overrides': [{
+        'files': ['*.ts'],
+        'parser': '@typescript-eslint/parser',
+    }]
 }
