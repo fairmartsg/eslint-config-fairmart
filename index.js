@@ -6,13 +6,13 @@ module.exports = {
     'parser': 'babel-eslint',
     'plugins': [
         'react',
-        "@typescript-eslint",
         'sonarjs',
         'no-else',
         'filenames',
         'folders',
         'detect-bad-words',
-        'prefer-arrow'
+        'prefer-arrow',
+        "@typescript-eslint"
     ],
     'extends': [
         'eslint:recommended',
