@@ -16,7 +16,8 @@ module.exports = {
     ],
     'extends': [
         'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
         'plugin:react/all',
         'plugin:sonarjs/recommended'
     ],
@@ -163,7 +164,7 @@ module.exports = {
         ]
     },
     'overrides': [{
-        'files': ['*.ts'],
+        'files': ['*.ts', '*.tsx'],
         'parser': '@typescript-eslint/parser'
     }]
 }
