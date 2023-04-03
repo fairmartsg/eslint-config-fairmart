@@ -30,7 +30,7 @@
     "@typescript-eslint/eslint-plugin": "5.57.0",
     "@typescript-eslint/parser": "5.57.0",
     "babel-eslint": "7.2.3",
-    "eslint": "6.2.2",
+    "eslint": "7.11.0",
     "eslint-plugin-detect-bad-words": "1.0.7",
     "eslint-plugin-filenames": "1.2.0",
     "eslint-plugin-folders": "1.0.3",
