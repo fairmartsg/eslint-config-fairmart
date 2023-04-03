@@ -6,6 +6,7 @@ module.exports = {
     'parser': 'babel-eslint',
     'plugins': [
         'react',
+        '@typescript-eslint',
         'sonarjs',
         'no-else',
         'filenames',
@@ -14,6 +15,8 @@ module.exports = {
         'prefer-arrow'
     ],
     'extends': [
+        'eslint:recommended',
+        'plugin:@typescript-eslint/recommended',
         'plugin:react/all',
         'plugin:sonarjs/recommended'
     ],
@@ -161,6 +164,6 @@ module.exports = {
     },
     'overrides': [{
         'files': ['*.ts'],
-        'parser': '@typescript-eslint/parser',
+        'parser': '@typescript-eslint/parser'
     }]
 }
