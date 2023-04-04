@@ -168,36 +168,6 @@ module.exports = {
             'extends': [
                 'plugin:@typescript-eslint/recommended'
             ],
-            'rules': {
-                '@typescript-eslint/no-unsafe-assignment': 'off',
-                '@typescript-eslint/no-unsafe-call': 'off',
-                '@typescript-eslint/restrict-template-expressions': 'off',
-                '@typescript-eslint/ban-ts-comment': 'off',
-                '@typescript-eslint/no-unused-vars': [
-                    'error',
-                    {
-                        'args': 'after-used',
-                        'caughtErrors': 'none',
-                        'vars': 'all',
-                        'argsIgnorePattern': '^_',
-                        'varsIgnorePattern': '^(_|[A-Z])',
-                        'ignoreRestSiblings': true
-                    }
-                ],
-                '@typescript-eslint/member-delimiter-style': [
-                    'error',
-                    {
-                        'multiline': {
-                            'delimiter': 'comma',
-                            'requireLast': true
-                        },
-                        'singleline': {
-                            'delimiter': 'comma',
-                            'requireLast': false
-                        }
-                    }
-                ]
-            }
         }
     ]
 }
