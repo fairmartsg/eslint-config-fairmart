@@ -62,5 +62,8 @@ module.exports = {
     ],
     'react/require-optimization': 'off',
     'react/forbid-foreign-prop-types': 'off',
-    'react/no-multi-comp': 'off'
+    'react/no-multi-comp': 'off',
+    'react/jsx-filename-extension': [1, {
+        'extensions': ['.jsx', '.tsx']
+    }]
 }

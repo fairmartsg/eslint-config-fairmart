@@ -11,7 +11,8 @@ module.exports = {
         'filenames',
         'folders',
         'detect-bad-words',
-        'prefer-arrow'
+        'prefer-arrow',
+        '@typescript-eslint'
     ],
     'extends': [
         'eslint:recommended',
@@ -160,8 +161,13 @@ module.exports = {
             }
         ]
     },
-    'overrides': [{
-        'files': ['*.ts'],
-        'parser': '@typescript-eslint/parser',
-    }]
+    'overrides': [
+        {
+            'files': ['*.ts', '*.tsx'],
+            'parser': '@typescript-eslint/parser',
+            'extends': [
+                'plugin:@typescript-eslint/recommended'
+            ],
+        }
+    ]
 }
