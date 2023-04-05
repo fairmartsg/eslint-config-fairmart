@@ -192,10 +192,43 @@ module.exports = {
     'overrides': [
         {
             'files': ['*.ts', '*.tsx'],
+            'plugins': [
+                '@typescript-eslint'
+            ],
             'parser': '@typescript-eslint/parser',
             'extends': [
                 'plugin:@typescript-eslint/recommended'
             ],
+            rules: {
+                "@typescript-eslint/ban-ts-comment": "off",
+                "@typescript-eslint/no-inferrable-types": "off",
+                "@typescript-eslint/ban-types": "off",
+                "@typescript-eslint/no-var-requires": "off",
+                "@typescript-eslint/no-unused-vars": [
+                    "error",
+                    {
+                        "args": "after-used",
+                        "caughtErrors": "none",
+                        "vars": "all",
+                        "argsIgnorePattern": "^_",
+                        "varsIgnorePattern": "^(_|[A-Z])",
+                        "ignoreRestSiblings": true
+                    }
+                ],
+                "@typescript-eslint/member-delimiter-style": [
+                    "error",
+                    {
+                        "multiline": {
+                            "delimiter": "comma",
+                            "requireLast": false
+                        },
+                        "singleline": {
+                            "delimiter": "comma",
+                            "requireLast": false
+                        }
+                    }
+                ]
+            }
         }
     ]
 }
