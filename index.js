@@ -4,8 +4,9 @@ const react = require('./rule/react')
 const typing = require('./rule/typing')
 
 module.exports = {
-    'parser': 'babel-eslint',
+    'parser': '@babel/eslint-parser',
     'plugins': [
+        '@babel',
         'react',
         'sonarjs',
         'no-else',
