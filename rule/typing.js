@@ -22,6 +22,7 @@ module.exports = {
         "@typescript-eslint/ban-ts-comment": "warn",
         "@typescript-eslint/restrict-plus-operands": "warn",
         "@typescript-eslint/array-type": "error",
-        "@typescript-eslint/sort-type-constituents": "error"
+        "@typescript-eslint/sort-type-constituents": "error",
+        "@typescript-eslint/no-inferrable-types": "off"
     }
 }
