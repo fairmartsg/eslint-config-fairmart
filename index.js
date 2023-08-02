@@ -34,6 +34,9 @@ module.exports = {
         'sourceType': 'module',
         'ecmaFeatures': {
             'jsx': true
+        },
+        "babelOptions": {
+            "presets": ["@babel/preset-react"]
         }
     },
     'rules': {
