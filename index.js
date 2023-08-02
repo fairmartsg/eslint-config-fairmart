@@ -1,6 +1,7 @@
 'use strict'
 const snakeCase = require('./rule/snakeCase')
 const react = require('./rule/react')
+const typing = require('./rule/typing')
 
 module.exports = {
     'parser': 'babel-eslint',
@@ -36,7 +37,6 @@ module.exports = {
     },
     'rules': {
         ...react,
-        // 'function-call-argument-newline': ["error", "never"],//next version
         'dot-notation': 'error',
         'max-params': ['error', 3],
         'prefer-const': ['error', {
@@ -48,6 +48,7 @@ module.exports = {
         'no-duplicate-imports': 'error',
         'arrow-body-style': ['error', 'as-needed'],
         'function-paren-newline': ['error', 'never'],
+        "function-call-argument-newline": ["error", "never"],
         'array-bracket-spacing': ['error', 'never'],
         'no-unexpected-multiline': 'error',
         'func-call-spacing': ['error', 'never'],
@@ -161,13 +162,5 @@ module.exports = {
             }
         ]
     },
-    'overrides': [
-        {
-            'files': ['*.ts', '*.tsx'],
-            'parser': '@typescript-eslint/parser',
-            'extends': [
-                'plugin:@typescript-eslint/recommended'
-            ]
-        }
-    ]
+    'overrides': [typing]
 }
