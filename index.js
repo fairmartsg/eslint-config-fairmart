@@ -37,7 +37,6 @@ module.exports = {
     'rules': {
         ...react,
         // 'function-call-argument-newline': ["error", "never"],//next version
-        "@typescript-eslint/consistent-type-exports": "error",
         'dot-notation': 'error',
         'max-params': ['error', 3],
         'prefer-const': ['error', {
