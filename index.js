@@ -1,10 +1,11 @@
 'use strict'
 const snakeCase = require('./rule/snakeCase')
 const react = require('./rule/react')
-const typing = require('./rule/typing')
+const type = require('./rule/type')
+const settings = require('./settings')
 
 module.exports = {
-    'parser': '@babel/eslint-parser',
+    'parser': '@typescript-eslint/parser',
     'plugins': [
         '@babel',
         'react',
@@ -19,28 +20,26 @@ module.exports = {
     'extends': [
         'eslint:recommended',
         'plugin:react/all',
-        'plugin:sonarjs/recommended'
+        'plugin:sonarjs/recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking'
     ],
-    'settings': {
-        'react': {
-            'createClass': 'createClass',
-            'pragma': 'React',
-            'version': '18.2'
+    'settings': settings,
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: 'module',
+        requireConfigFile: false,
+        ecmaFeatures: {
+            jsx: true
         },
-        'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'data', 'some', 'buff']
-    },
-    'parserOptions': {
-        'ecmaVersion': 6,
-        'sourceType': 'module',
-        'ecmaFeatures': {
-            'jsx': true
+        babelOptions: {
+            presets: ['@babel/preset-env', '@babel/preset-react']
         },
-        "babelOptions": {
-            "presets": ["@babel/preset-react"]
-        }
+        'project': ['./tsconfig.json']
     },
     'rules': {
         ...react,
+        ...type,
         'dot-notation': 'error',
         'max-params': ['error', 3],
         'prefer-const': ['error', {
@@ -165,6 +164,5 @@ module.exports = {
                 'classPropertiesAllowed': false
             }
         ]
-    },
-    'overrides': [typing]
+    }
 }

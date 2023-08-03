@@ -55,5 +55,4 @@ module.exports = [
     'pick_code',
     'template_id',
     'dynamic_template_data'
-
 ]
