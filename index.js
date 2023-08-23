@@ -80,7 +80,7 @@ module.exports = {
         'max-len': [
             'error',
             {
-                'code': 120
+                'code': 140
             }
         ],
         'indent': 'off',
