@@ -17,12 +17,16 @@
     "types": [
       "node",
       "mocha",
-      "expect"
+      "expect",
+      "cypress",
+      "express"
     ],
-    "declaration": true,
     "module": "CommonJS",
-    "outDir": "lib",
-    "baseUrl": "/"
+    "plugins": [
+      {
+        "name": "@typescript-eslint"
+      }
+    ]
   },
   "include": [
     "**/*.ts"
