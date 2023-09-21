@@ -12,6 +12,7 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "sourceMap": true,
+    "declaration": true,
     "jsx": "react",
     "experimentalDecorators": true,
     "types": [
