@@ -19,7 +19,8 @@
       "mocha",
       "expect",
       "cypress",
-      "express"
+      "express",
+      "lodash"
     ],
     "module": "CommonJS",
     "plugins": [
