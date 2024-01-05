@@ -21,7 +21,8 @@
       "expect",
       "cypress",
       "express",
-      "lodash"
+      "lodash",
+      "sinon"
     ],
     "module": "CommonJS",
     "plugins": [
