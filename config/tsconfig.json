@@ -22,8 +22,8 @@
       "cypress",
       "express",
       "lodash",
-      "sinon",
-      "proxyquire"
+      "proxyquire",
+      "sharp"
     ],
     "module": "CommonJS",
     "plugins": [
