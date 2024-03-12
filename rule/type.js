@@ -1,7 +1,7 @@
 module.exports = {
     "@typescript-eslint/explicit-function-return-type": "warn",
     "@typescript-eslint/explicit-module-boundary-types": "warn",
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-unsafe-assignment": "warn",
     "@typescript-eslint/no-unsafe-argument": "warn",
     "@typescript-eslint/no-unsafe-call": "warn",
@@ -14,5 +14,6 @@ module.exports = {
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/sort-type-constituents": "error",
     "@typescript-eslint/no-inferrable-types": "off",
-    "@typescript-eslint/restrict-template-expressions": "warn"
+    "@typescript-eslint/restrict-template-expressions": "warn",
+    "@typescript-eslint/no-invalid-void-type": "warn"
 }

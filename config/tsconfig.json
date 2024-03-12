@@ -23,6 +23,7 @@
       "express",
       "lodash",
       "proxyquire",
+      "sinon",
       "sharp"
     ],
     "module": "CommonJS",
