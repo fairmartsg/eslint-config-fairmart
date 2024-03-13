@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fairmart",
-  "version": "3.7.1",
+  "version": "3.7.2",
   "description": "ESLint shareable config for the Fairmart JavaScript style guide",
   "main": "index.js",
   "private": true,
@@ -45,7 +45,8 @@
     "@types/loadable__component": "5.13.8",
     "cypress": "12.11.0",
     "ts-mocha": "10.0.0",
-    "ts-node": "10.9.1"
+    "ts-node": "10.9.1",
+    "@types/jest": "29.5.12"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.62.0",
@@ -79,6 +80,7 @@
     "@types/loadable__component": "5.13.8",
     "cypress": "12.11.0",
     "ts-mocha": "10.0.0",
-    "ts-node": "10.9.1"
+    "ts-node": "10.9.1",
+    "@types/jest": "29.5.12"
   }
 }
