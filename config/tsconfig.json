@@ -24,7 +24,12 @@
       "lodash",
       "proxyquire",
       "sinon",
-      "sharp"
+      "sharp",
+      "jest",
+      "jest-dom",
+      "@testing-library/react",
+      "@testing-library/dom",
+      "@testing-library/jest-dom"
     ],
     "module": "CommonJS",
     "plugins": [
