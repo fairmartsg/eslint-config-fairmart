@@ -30,7 +30,7 @@
       "@testing-library/dom",
       "@testing-library/jest-dom"
     ],
-    "module": "esnext",
+    "module": "CommonJS",
     "plugins": [
       {
         "name": "@typescript-eslint"
