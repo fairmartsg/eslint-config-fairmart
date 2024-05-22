@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fairmart",
-  "version": "3.8.0",
+  "version": "3.8.1",
   "description": "ESLint shareable config for the Fairmart JavaScript style guide",
   "main": "index.js",
   "private": true,
@@ -79,6 +79,7 @@
     "@types/sharp": "0.28.3",
     "@types/proxyquire": "1.3.31",
     "@types/loadable__component": "5.13.8",
+    "@types/nanoid": "2.1.11",
     "cypress": "12.11.0",
     "ts-mocha": "10.0.0",
     "ts-node": "10.9.1",

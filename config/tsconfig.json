@@ -29,7 +29,8 @@
       "redux-form",
       "@testing-library/react",
       "@testing-library/dom",
-      "@testing-library/jest-dom"
+      "@testing-library/jest-dom",
+      "nanoid"
     ],
     "module": "CommonJS",
     "plugins": [
