@@ -30,7 +30,8 @@
       "@testing-library/react",
       "@testing-library/dom",
       "@testing-library/jest-dom",
-      "nanoid"
+      "nanoid",
+      "papaparse",
     ],
     "module": "CommonJS",
     "plugins": [
