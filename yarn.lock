@@ -1077,6 +1077,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-onclickoutside@6.7.10":
+  version "6.7.10"
+  resolved "https://registry.yarnpkg.com/@types/react-onclickoutside/-/react-onclickoutside-6.7.10.tgz#aeaf56aac4b67185a69038d22c55bd0726f13123"
+  integrity sha512-Do2eOuqlJ9amXAuQO5gbhp5MAPnzZ7cknmYqX4U44tX22eAAnHgQKjp3SaNhSAuUHBTANWEqn1N+nWd3ea8FyQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-redux@7.1.25":
   version "7.1.25"
   resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.25.tgz#de841631205b24f9dfb4967dd4a7901e048f9a88"
