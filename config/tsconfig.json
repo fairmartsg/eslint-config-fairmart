@@ -32,7 +32,9 @@
       "@testing-library/jest-dom",
       "nanoid",
       "papaparse",
-      "react-onclickoutside"
+      "react-onclickoutside",
+      "string-similarity",
+      "html-to-text"
     ],
     "module": "CommonJS",
     "plugins": [
