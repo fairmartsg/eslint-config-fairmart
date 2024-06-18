@@ -2,7 +2,6 @@
 const snakeCase = require('./rule/snakeCase')
 const react = require('./rule/react')
 const type = require('./rule/type')
-const folder = require('./rule/folder')
 const settings = require('./settings')
 
 module.exports = {
