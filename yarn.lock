@@ -2151,6 +2151,11 @@ eslint-plugin-folders@1.0.3:
   resolved "https://registry.yarnpkg.com/eslint-plugin-folders/-/eslint-plugin-folders-1.0.3.tgz#db98fccdb8d0453de82e70d8b8de0e2b6222b6c6"
   integrity sha512-NqJffMuET/Zb4HHrxs61f6ur6pM5dsgy/SxuxCto98oVJjDKDUhE/O2OOOc06bjYIeVnGPOjgkAuxjk0+Gp4LA==
 
+eslint-plugin-local-rules@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-local-rules/-/eslint-plugin-local-rules-2.0.1.tgz#b9245e5def0d4ce698d062fb058fe16571805aa5"
+  integrity sha512-AJhGd+GcI5r2dbjiGPixM8jnBl0XFxqoVbqzwKbYz+nTk+Cj5dNE3+OlhC176bl5r25KsGsIthLi1VqIW5Ga+A==
+
 eslint-plugin-mocha@10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-mocha/-/eslint-plugin-mocha-10.1.0.tgz#69325414f875be87fb2cb00b2ef33168d4eb7c8d"
