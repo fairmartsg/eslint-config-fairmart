@@ -15,8 +15,7 @@ module.exports = {
         'folders',
         'detect-bad-words',
         'prefer-arrow',
-        '@typescript-eslint',
-        'eslint-plugin-local-rules'
+        '@typescript-eslint'
     ],
     'extends': [
         'eslint:recommended',
@@ -41,7 +40,6 @@ module.exports = {
     'rules': {
         ...react,
         ...type,
-        'local-rules/max-files-per-folder': 'warn',
         'dot-notation': 'error',
         'max-params': ['error', 3],
         'prefer-const': ['error', {
