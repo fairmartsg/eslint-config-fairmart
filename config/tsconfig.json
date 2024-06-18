@@ -34,7 +34,8 @@
       "papaparse",
       "react-onclickoutside",
       "string-similarity",
-      "html-to-text"
+      "html-to-text",
+      "form-data"
     ],
     "module": "CommonJS",
     "plugins": [
