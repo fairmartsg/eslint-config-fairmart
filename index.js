@@ -16,7 +16,8 @@ module.exports = {
         'folders',
         'detect-bad-words',
         'prefer-arrow',
-        '@typescript-eslint'
+        '@typescript-eslint',
+        {'fairmart': folder}
     ],
     'extends': [
         'eslint:recommended',
@@ -41,7 +42,7 @@ module.exports = {
     'rules': {
         ...react,
         ...type,
-        ...folder,
+        "fairmart/max-files-per-folder": "warn",
         'dot-notation': 'error',
         'max-params': ['error', 3],
         'prefer-const': ['error', {
