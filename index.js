@@ -2,6 +2,7 @@
 const snakeCase = require('./rule/snakeCase')
 const react = require('./rule/react')
 const type = require('./rule/type')
+const folder = require('./rule/folder')
 const settings = require('./settings')
 
 module.exports = {
@@ -40,6 +41,7 @@ module.exports = {
     'rules': {
         ...react,
         ...type,
+        ...folder,
         'dot-notation': 'error',
         'max-params': ['error', 3],
         'prefer-const': ['error', {
