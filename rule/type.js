@@ -8,7 +8,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-return": "warn",
     "@typescript-eslint/no-unsafe-member-access": "warn",
     "@typescript-eslint/ban-ts-comment": "warn",
-    "@typescript-eslint/restrict-plus-operands": "warn",
+    "@typescript-eslint/restrict-plus-operands": ["error", {"allowNumberAndString": true}],
     "@typescript-eslint/member-ordering": "error",
     "@typescript-eslint/method-signature-style": "error",
     "@typescript-eslint/array-type": "error",
