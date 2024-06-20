@@ -32,7 +32,6 @@
       "@testing-library/jest-dom",
       "nanoid",
       "papaparse",
-      "react-onclickoutside",
       "string-similarity",
       "html-to-text",
       "form-data"
