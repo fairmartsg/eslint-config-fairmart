@@ -7,9 +7,8 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/prefer-stateless-function': 'off',
     'react/jsx-wrap-multilines': 'off',
-    'react/jsx-tag-spacing': ['error', {
-        'beforeSelfClosing': 'never'
-    }],
+    'react/jsx-no-constructed-context-values': 'off',
+    'react/jsx-tag-spacing': ['error', {'beforeSelfClosing': 'never'}],
     'react/jsx-first-prop-new-line': 'off',
     'react/jsx-fragments': 'off',
     'react/jsx-newline': 'off',
@@ -29,16 +28,8 @@ module.exports = {
     'react/jsx-indent-props': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-no-literals': 'off',
-    'react/jsx-no-bind': [
-        'error',
-        {
-            'allowArrowFunctions': true
-        }
-    ],
-    'react/jsx-closing-bracket-location': [
-        1,
-        'after-props'
-    ],
+    'react/jsx-no-bind': ['error', {'allowArrowFunctions': true}],
+    'react/jsx-closing-bracket-location': [1, 'after-props'],
     'react/forbid-prop-types': [
         'error',
         {

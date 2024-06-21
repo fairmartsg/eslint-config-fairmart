@@ -15,5 +15,20 @@ module.exports = {
     "@typescript-eslint/sort-type-constituents": "error",
     "@typescript-eslint/no-inferrable-types": "off",
     "@typescript-eslint/restrict-template-expressions": "warn",
-    "@typescript-eslint/no-invalid-void-type": "warn"
+    "@typescript-eslint/no-invalid-void-type": "warn",
+    '@typescript-eslint/ban-types': ['warn', {
+        'types': {
+            'String': true,
+            'Boolean': true,
+            'Number': true,
+            'Symbol': true,
+            '{}': true,
+            'Object': true,
+            'object': true,
+            'Function': true
+        },
+        'extendDefaults': true
+    }
+    ]
+
 }
