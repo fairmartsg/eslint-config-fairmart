@@ -33,8 +33,7 @@
       "nanoid",
       "papaparse",
       "string-similarity",
-      "html-to-text",
-      "form-data"
+      "html-to-text"
     ],
     "module": "CommonJS",
     "plugins": [
