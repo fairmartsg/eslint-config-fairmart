@@ -33,7 +33,8 @@
       "nanoid",
       "papaparse",
       "string-similarity",
-      "html-to-text"
+      "html-to-text",
+      "aws-serverless-express"
     ],
     "module": "CommonJS",
     "plugins": [
