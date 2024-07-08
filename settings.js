@@ -9,5 +9,5 @@ module.exports = {
         'pragma': 'React',
         'version': '18.2'
     },
-    'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'data', 'some', 'buff', 'handle']
+    'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'info', 'some', 'buff', 'handle', 'array']
 }
