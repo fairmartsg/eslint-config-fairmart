@@ -34,7 +34,8 @@
       "papaparse",
       "string-similarity",
       "html-to-text",
-      "aws-serverless-express"
+      "aws-serverless-express",
+      "gtag.js"
     ],
     "module": "CommonJS",
     "plugins": [
