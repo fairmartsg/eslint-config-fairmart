@@ -9,5 +9,5 @@ module.exports = {
         'pragma': 'React',
         'version': '18.2'
     },
-    'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'info', 'some', 'buff', 'handle', 'array', 'Array', 'ConnectedProps', 'unknown', 'as', 'reducerUtil', 'addProductUtil']
+    'customBadWords': ['ele', 'num', 'grouping', 'err', 'e', 'info', 'some', 'buff', 'handle', 'array', 'Array', 'ConnectedProps', 'unknown', 'as', 'reducerUtil', 'addProductUtil', 'StoreWidget', 'widget']
 }
