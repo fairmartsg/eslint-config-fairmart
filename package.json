@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fairmart",
-  "version": "3.10.4",
+  "version": "3.10.5",
   "description": "ESLint shareable config for the Fairmart JavaScript style guide",
   "main": "index.js",
   "private": true,
