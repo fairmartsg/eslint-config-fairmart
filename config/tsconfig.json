@@ -15,6 +15,7 @@
     "declaration": true,
     "jsx": "react",
     "experimentalDecorators": true,
+    "typeRoots": ["../type", "./node_modules/@types"],
     "types": [
       "node",
       "mocha",
